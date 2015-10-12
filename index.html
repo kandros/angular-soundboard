@@ -33,65 +33,15 @@
             <!-- Bovello -->
             <!-- Raj tbbt racist -->
 
-            <div class="row">
-                <div class="col-xs-3">
-                    <sound-button sound="elephant-short">Elefante corto</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="elephant-long">Elefante lungo</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="fart">scoreggia</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="sad-trombone">Sad trombone</sound-button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3">
-                    <sound-button sound="money">Money</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="applause">Applause</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="fart">scoreggia</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="sad-trombone">Sad trombone</sound-button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3">
-                    <sound-button sound="money">Money</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="applause">Applause</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="fart">scoreggia</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="sad-trombone">Sad trombone</sound-button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3">
-                    <sound-button sound="crowd-laughing">Risate</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="burp">Rutto</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="crowd-laughing">Risate</sound-button>
-                </div>
-                <div class="col-xs-3">
-                    <sound-button sound="burp">Rutto</sound-button>
-                </div>
-            </div>
-
+            <ul>
+                <li ng-repeat="soundButton in soundButtons">
+                    <sound-button sound="{{soundButton.sound}}">{{soundButton.name}}</sound-button>
+                </li>
+            </ul>
         </div>
+
     </div>
+
     <script src="./angular.min.js" charset="utf-8"></script>
     <script src="./app.js" charset="utf-8"></script>
     <script src="./jquery.min.js" charset="utf-8"></script>

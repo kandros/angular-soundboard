@@ -8,7 +8,7 @@ body {
   border-radius: 10px;
   width: 400px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 10px 0;
 }
 .speaker__img {
   width: 300px;
@@ -26,6 +26,13 @@ body {
 
 .buttons {
   text-align: center;
+}
+.buttons ul {
+  padding-left: 0;
+}
+.buttons li {
+  display: inline-block;
+  width: 25%;
 }
 
 sound-button {

@@ -1,16 +1,9 @@
 var app = angular.module("app", []);
 
-app.controller("buttonsController", ["$scope", function($scope) {
-  $scope.soundButtons = [
-    { name: "elephant-short",
-      sound: "elephant-short"},
-    { name: "elephant-long",
-      sound: "elephant-long"},
-    { name: "money",
-      sound: "money"},
-    { name: "elephant-short",
-      sound: "elephant-short"},
-  ];
+app.controller("buttonsController", ["$scope","$http", function($scope, $http) {
+    $http.get("./sounds.json").success(function(data) {
+      $scope.soundButtons = data;
+    });
 }]);
 
 app.directive("soundButton", function() {
