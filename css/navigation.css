@@ -1,0 +1,18 @@
+.nav-toggle {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.navbar {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #0C7CA2;
+}
+
+body.navigation-open {
+  transform: translateX(-200px);
+}

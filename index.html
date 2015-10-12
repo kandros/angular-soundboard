@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ama Soundboard</title>
+</head>
+
+<body>
+    <button class="nav-toggle">nav</button>
+    <div class="navbar"></div>
+    <div class="main">
+
+        <div class="speaker">
+            <img class="speaker__img img-responsive" src="images/speaker.png" />
+        </div>
+
+        <div class="row title">
+            <div class="col-xs-12">
+                <h1>Press a button sir!</h1>
+            </div>
+        </div>
+
+        <div class="buttons" ng-controller="buttonsController">
+
+            <!-- Frustata -->
+            <!-- Hey tu qual'è il tuo mestiere -->
+            <!-- Il vasaio signore -->
+            <!-- Elefante -->
+            <!-- Bovello -->
+            <!-- Raj tbbt racist -->
+
+            <div class="row">
+                <div class="col-xs-3">
+                    <sound-button sound="elephant-short">Elefante corto</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="elephant-long">Elefante lungo</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="fart">scoreggia</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="sad-trombone">Sad trombone</sound-button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3">
+                    <sound-button sound="money">Money</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="applause">Applause</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="fart">scoreggia</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="sad-trombone">Sad trombone</sound-button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3">
+                    <sound-button sound="money">Money</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="applause">Applause</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="fart">scoreggia</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="sad-trombone">Sad trombone</sound-button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3">
+                    <sound-button sound="crowd-laughing">Risate</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="burp">Rutto</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="crowd-laughing">Risate</sound-button>
+                </div>
+                <div class="col-xs-3">
+                    <sound-button sound="burp">Rutto</sound-button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./angular.min.js" charset="utf-8"></script>
+    <script src="./app.js" charset="utf-8"></script>
+    <script src="./jquery.min.js" charset="utf-8"></script>
+    <script src="./global.js" charset="utf-8"></script>
+</body>
+
+</html>

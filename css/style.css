@@ -1,0 +1,68 @@
+body {
+  padding-top: 10px;
+  transition: all .8s;
+  overflow: hidden;
+}
+.main {
+  background-color: #1DCCEB;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.speaker__img {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.title h1 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #eee
+}
+
+.buttons {
+  text-align: center;
+}
+
+sound-button {
+    background-color: #0C7CA2;
+    border-radius: 100%;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    margin-top: 57px;
+    position: relative;
+    width: 24px;
+    box-shadow: 0 4px 0 #044D7F;
+}
+
+sound-button {
+    box-shadow: 0 2px 0 #044D7F;
+    top: 2px;
+}
+
+sound-button > span {
+    top: -42px;
+}
+
+sound-button:active {
+    box-shadow: 0 0 0 #044D7F;
+    top: 5px;
+}
+
+sound-button:active > span {
+    top: -45px;
+}
+
+.label {
+  display: inline-block;
+  height: 50px;
+  left: -2px;
+  position: absolute;
+  top: -40px;
+  width: 30px;
+}
