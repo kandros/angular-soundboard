@@ -1,36 +1,46 @@
+html, body {
+  height: 100%;
+}
+
 body {
   padding-top: 10px;
   transition: all .8s;
   overflow: hidden;
 }
+
 .main {
+  transition: all .8s;
   background-color: #1DCCEB;
   border-radius: 10px;
   width: 400px;
   margin: 0 auto;
+  position: absolute;
+  right: 20%;
   padding: 10px 0 15px;
+  box-shadow: 0 0 3px 0px black;
 }
 .speaker__img {
   width: 300px;
-  height: 200px;
+  height: 240px;
   margin: 0 auto;
   padding: 10px 0;
 }
 
 .title h1 {
+  background-color: #0C7CA2;
   text-align: center;
-  margin-top: 5px;
   margin-bottom: 5px;
-  color: #eee
+  color: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
 
-.buttons {
-}
-.buttons ul {
+.buttons-board-list {
   padding-left: 0;
   margin: 0;
 }
-.buttons li {
+.buttons-board-list li {
   text-align: center;
   display: inline-block;
   width: 25%;
@@ -42,7 +52,7 @@ sound-button {
     cursor: pointer;
     display: inline-block;
     height: 24px;
-    margin-top: 57px;
+    margin-top: 48px;
     position: relative;
     width: 24px;
     box-shadow: 0 4px 0 #044D7F;

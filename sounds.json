@@ -19,6 +19,26 @@
   },
   { "name": "frustata 4",
     "sound": "frustata4"
+  },
+  { "name": "elephant-short",
+    "sound": "elephant-short"
+  },
+  { "name": "elephant-long",
+    "sound": "elephant-long"
+  },
+  { "name": "money",
+    "sound": "money"
+  },
+  { "name": "frustate",
+    "sound": "frustate"
+  },
+  { "name": "frustata 2",
+    "sound": "frustata2"
+  },
+  { "name": "frustata 3",
+    "sound": "frustata3"
+  },
+  { "name": "frustata 4",
+    "sound": "frustata4"
   }
-
 ]

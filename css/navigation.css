@@ -1,18 +1,51 @@
-.nav-toggle {
-  position: absolute;
-  right: 30px;
-  top: 30px;
-}
 
 .navbar {
   position: absolute;
-  left: 100%;
+  left: 105%;
   top: 0;
   bottom: 0;
-  width: 200px;
-  background-color: #0C7CA2;
+  width: 300px;
+  background-color: #1DCCEB;
+  overflow-y: scroll;
+  box-shadow: 0 0 4px 0px black;
+}
+
+.navbar__title {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.buttons-nav-list {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.buttons-nav-list li {
+  height: 60px;
+  border-bottom: 1px solid rgba(90, 90, 90, 0.17);
+}
+
+.buttons-nav-list li sound-button {
+  margin-top: 20px;
+}
+
+.buttons-nav-list .label {
+  position: relative;
+  top: 0;
+  left: 30px;
+  width: 100px;
 }
 
 body.navigation-open {
-  transform: translateX(-200px);
+  transform: translateX(-300px);
+  transform: translateX(-300px);
+}
+
+.navigation-open .main {
+  transform: translateX(100px);
+}
+.navigation-open #toggle {
+  transform: translateX(40px);
 }

@@ -4,14 +4,27 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/toggle.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Ama Soundboard</title>
 </head>
 
-<body>
-    <button class="nav-toggle">nav</button>
-    <div class="navbar"></div>
+<body ng-controller="buttonsController">
+        <a href="#menu" id="toggle"><span></span></a>
+    <div class="navbar">
+        <h2 class="navbar__title">Sounds List</h2>
+        <ul class="buttons-nav-list">
+            <!-- <li ng-repeat="soundButton in soundButtons">
+                <sound-button sound="{{soundButton.sound}}">{{soundButton.name}}</sound-button>
+            </li> -->
+        </ul>
+        <ul class="buttons-nav-list">
+            <li ng-repeat="soundButton in soundButtons">
+                <sound-button sound="{{soundButton.sound}}">{{soundButton.name}}</sound-button>
+            </li>
+        </ul>
+    </div>
     <div class="main">
 
         <div class="speaker">
@@ -24,7 +37,7 @@
             </div>
         </div>
 
-        <div class="buttons" ng-controller="buttonsController">
+        <div class="buttons">
 
             <!-- Frustata -->
             <!-- Hey tu qual'è il tuo mestiere -->
@@ -33,7 +46,7 @@
             <!-- Bovello -->
             <!-- Raj tbbt racist -->
 
-            <ul>
+            <ul class="buttons-board-list">
                 <li ng-repeat="soundButton in soundButtons">
                     <sound-button sound="{{soundButton.sound}}">{{soundButton.name}}</sound-button>
                 </li>
