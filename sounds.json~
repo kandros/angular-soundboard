@@ -35,9 +35,5 @@
   {
     "name": "tiger-roar",
     "sound": "tiger-roar"
-  },
-  {
-    "name": "bovello",
-    "sound": "bovello"
   }
 ]
