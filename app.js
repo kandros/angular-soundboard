@@ -15,7 +15,7 @@ app.directive("soundButton", function() {
     transclude: true,
     templateUrl: "sound-button.html",
     link: function(scope, element, attrs) {
-      var audio = new Audio("./sounds/" + attrs.sound + ".wav");
+      var audio = new Audio("./assets/sounds/" + attrs.sound + ".wav");
       element.on("click", function() {
         audio.currentTime = 0;
         audio.play();

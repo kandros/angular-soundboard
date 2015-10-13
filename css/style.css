@@ -6,6 +6,9 @@ body {
   padding-top: 10px;
   transition: all .8s;
   overflow: hidden;
+  background-image: url('../assets/images/bg-blur.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .main {
@@ -58,12 +61,12 @@ sound-button {
     box-shadow: 0 4px 0 #044D7F;
 }
 
-sound-button {
+sound-button:hover {
     box-shadow: 0 2px 0 #044D7F;
     top: 2px;
 }
 
-sound-button > span {
+sound-button  span {
     top: -42px;
 }
 
@@ -72,7 +75,7 @@ sound-button:active {
     top: 5px;
 }
 
-sound-button:active > span {
+sound-button:active  span {
     top: -45px;
 }
 

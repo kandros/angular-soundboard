@@ -20,25 +20,20 @@
   { "name": "frustata 4",
     "sound": "frustata4"
   },
-  { "name": "elephant-short",
-    "sound": "elephant-short"
+  {
+    "name": "300 mestiere",
+    "sound": "mestiere_300"
   },
-  { "name": "elephant-long",
-    "sound": "elephant-long"
+  {
+    "name": "secchiata-amistad",
+    "sound": "secchiata-amistad"
   },
-  { "name": "money",
-    "sound": "money"
+  {
+    "name": "sparo-amistad",
+    "sound": "sparo-amistad"
   },
-  { "name": "frustate",
-    "sound": "frustate"
-  },
-  { "name": "frustata 2",
-    "sound": "frustata2"
-  },
-  { "name": "frustata 3",
-    "sound": "frustata3"
-  },
-  { "name": "frustata 4",
-    "sound": "frustata4"
+  {
+    "name": "tiger-roar",
+    "sound": "tiger-roar"
   }
 ]
